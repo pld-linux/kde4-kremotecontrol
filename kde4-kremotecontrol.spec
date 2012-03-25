@@ -25,9 +25,9 @@ Obsoletes:	kde4-kdeutils-irkick
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-KRemoteControl is a KDE frontend for your remote controls. It allows to
-configure actions for button presses on remotes. All types of remotes supported
-by Solid are also supported by KRemoteControl.
+KRemoteControl is a KDE frontend for your remote controls. It allows
+to configure actions for button presses on remotes. All types of
+remotes supported by Solid are also supported by KRemoteControl.
 
 %prep
 %setup -q -n %{orgname}-%{version}
