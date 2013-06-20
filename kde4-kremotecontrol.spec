@@ -6,7 +6,7 @@
 Summary:	K Desktop Environment - Infrared Remote Control
 Name:		kde4-kremotecontrol
 Version:	4.10.4
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications
 Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
@@ -66,6 +66,10 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/kde4/services/plasma-engine-kremotecontrol.desktop
 %{_datadir}/kde4/servicetypes/kremotecontrolmanager.desktop
 %{_desktopdir}/kde4/krcdnotifieritem.desktop
+%{_iconsdir}/hicolor/scalable/actions/krcd_flash.svgz
+%{_iconsdir}/hicolor/scalable/actions/krcd_off.svgz
+%{_iconsdir}/hicolor/scalable/apps/krcd.svgz
+%{_iconsdir}/hicolor/scalable/devices/infrared-remote.svgz
 %{_iconsdir}/hicolor/*x*/actions/krcd_flash.png
 %{_iconsdir}/hicolor/*x*/actions/krcd_off.png
 %{_iconsdir}/hicolor/*x*/apps/krcd.png
