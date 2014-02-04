@@ -5,12 +5,12 @@
 
 Summary:	K Desktop Environment - Infrared Remote Control
 Name:		kde4-kremotecontrol
-Version:	4.12.1
+Version:	4.12.2
 Release:	1
 License:	GPL
 Group:		X11/Applications
 Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
-# Source0-md5:	ffc7bdc323696153dec4cd87675dc303
+# Source0-md5:	5852b73db071c666e2651f559efd1409
 URL:		http://www.kde.org/
 BuildRequires:	QtXmlPatterns-devel
 BuildRequires:	automoc4 >= 0.9.88
